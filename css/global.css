@@ -243,9 +243,9 @@ a:hover {
   position: relative;
   padding-top: 80px;
   /* background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%); */
-  background-image: url('../img/index_hero_background2.jpg');
+  background-image: url('../img/index_hero_background4.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: 80% 80%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-blend-mode: overlay;
@@ -290,6 +290,7 @@ a:hover {
 
 .btn:hover {
   background-color: var(--color-accent-light);
+  color: var(--color-text-primary);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
