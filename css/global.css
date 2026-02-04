@@ -242,7 +242,14 @@ a:hover {
   text-align: center;
   position: relative;
   padding-top: 80px;
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  /* background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%); */
+  background-image: url('../img/index_hero_background2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-color: rgba(15, 27, 45, 0.8);
 }
 
 .hero-content {
