@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personnages - StarScape</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">StarScape</a>
+            <button class="nav-toggle">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="univers.html" class="nav-link">L'Univers</a></li>
+                <li><a href="personnages.html" class="nav-link active">Personnages</a></li>
+                <li><a href="regles.html" class="nav-link">Les Règles</a></li>
+                <li><a href="vaisseau.html" class="nav-link">Le Vaisseau</a></li>
+                <li><a href="factions.html" class="nav-link">Factions</a></li>
+                <li><a href="scenarios.html" class="nav-link">Scénarios</a></li>
+                <li><a href="bestiaire.html" class="nav-link">Bestiaire</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh;">
+        <div class="hero-content">
+            <h1 class="hero-title">Créer un Personnage</h1>
+            <p class="hero-subtitle">
+                Un personnage de StarScape est défini par ses compétences, son rôle dans l'équipage, 
+                son équipement et ses choix.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section Introduction -->
+    <section class="section">
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+                <p style="font-size: var(--font-size-lg); margin-bottom: var(--spacing-xl);">
+                    Il n'existe pas de classes rigides dans StarScape. À la place, les archétypes 
+                    servent de point de départ pour créer votre personnage unique.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Archétypes -->
+    <section class="section" style="background-color: var(--color-bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Archétypes</h2>
+            <div class="grid grid-2" style="margin-top: var(--spacing-2xl);">
+                <!-- Éclaireur -->
+                <div class="card">
+                    <div class="card-image">
+                        <span>Image : Éclaireur en action</span>
+                    </div>
+                    <h3 class="card-title">🔫 Éclaireur</h3>
+                    <p class="card-content">
+                        Experts du terrain et du combat à distance.
+                    </p>
+                    <div style="margin-top: var(--spacing-md);">
+                        <h4 style="font-size: var(--font-size-lg); margin-bottom: var(--spacing-sm);">Forces</h4>
+                        <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg); margin-bottom: var(--spacing-md);">
+                            <li>Premiers à agir</li>
+                            <li>Excellente mobilité</li>
+                            <li>Pression constante sur l'ennemi</li>
+                        </ul>
+                        <h4 style="font-size: var(--font-size-lg); margin-bottom: var(--spacing-sm);">Style de jeu</h4>
+                        <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                            <li>Attaques rapides</li>
+                            <li>Repérage</li>
+                            <li>Neutralisation ciblée</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Scientifique de terrain -->
+                <div class="card">
+                    <div class="card-image">
+                        <span>Image : Scientifique analysant une anomalie</span>
+                    </div>
+                    <h3 class="card-title">🧠 Scientifique de terrain</h3>
+                    <p class="card-content">
+                        Spécialistes des anomalies, de la biologie et des technologies inconnues.
+                    </p>
+                    <div style="margin-top: var(--spacing-md);">
+                        <h4 style="font-size: var(--font-size-lg); margin-bottom: var(--spacing-sm);">Forces</h4>
+                        <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg); margin-bottom: var(--spacing-md);">
+                            <li>Analyse des environnements</li>
+                            <li>Compréhension des créatures</li>
+                            <li>Soutien technique</li>
+                        </ul>
+                        <h4 style="font-size: var(--font-size-lg); margin-bottom: var(--spacing-sm);">Style de jeu</h4>
+                        <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                            <li>Résolution de problèmes</li>
+                            <li>Décisions intelligentes</li>
+                            <li>Support de l'équipe</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Ingénieur spatial -->
+                <div class="card">
+                    <div class="card-image">
+                        <span>Image : Ingénieur réparant un système</span>
+                    </div>
+                    <h3 class="card-title">🛠 Ingénieur spatial</h3>
+                    <p class="card-content">
+                        Maîtres de la mécanique, du piratage et des réparations d'urgence.
+                    </p>
+                    <div style="margin-top: var(--spacing-md);">
+                        <h4 style="font-size: var(--font-size-lg); margin-bottom: var(--spacing-sm);">Forces</h4>
+                        <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg); margin-bottom: var(--spacing-md);">
+                            <li>Contrôle du champ de bataille</li>
+                            <li>Désactivation d'ennemis mécaniques</li>
+                            <li>Soutien hors combat</li>
+                        </ul>
+                        <h4 style="font-size: var(--font-size-lg); margin-bottom: var(--spacing-sm);">Style de jeu</h4>
+                        <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                            <li>Gadgets</li>
+                            <li>Piratage</li>
+                            <li>Solutions créatives</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Capitaine libre -->
+                <div class="card">
+                    <div class="card-image">
+                        <span>Image : Capitaine dirigeant son équipage</span>
+                    </div>
+                    <h3 class="card-title">🧭 Capitaine libre</h3>
+                    <p class="card-content">
+                        Le cœur narratif de l'équipage.
+                    </p>
+                    <div style="margin-top: var(--spacing-md);">
+                        <h4 style="font-size: var(--font-size-lg); margin-bottom: var(--spacing-sm);">Forces</h4>
+                        <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg); margin-bottom: var(--spacing-md);">
+                            <li>Leadership</li>
+                            <li>Négociation</li>
+                            <li>Prise de décision</li>
+                        </ul>
+                        <h4 style="font-size: var(--font-size-lg); margin-bottom: var(--spacing-sm);">Style de jeu</h4>
+                        <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                            <li>Interaction sociale</li>
+                            <li>Gestion des tensions</li>
+                            <li>Orientation de l'histoire</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Pilote -->
+                <div class="card">
+                    <div class="card-image">
+                        <span>Image : Pilote aux commandes</span>
+                    </div>
+                    <h3 class="card-title">🚀 Pilote</h3>
+                    <p class="card-content">
+                        Experts du déplacement, de la fuite et de la manœuvre.
+                    </p>
+                    <div style="margin-top: var(--spacing-md);">
+                        <h4 style="font-size: var(--font-size-lg); margin-bottom: var(--spacing-sm);">Forces</h4>
+                        <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg); margin-bottom: var(--spacing-md);">
+                            <li>Mobilité exceptionnelle</li>
+                            <li>Actions tactiques</li>
+                            <li>Gestion du terrain</li>
+                        </ul>
+                        <h4 style="font-size: var(--font-size-lg); margin-bottom: var(--spacing-sm);">Style de jeu</h4>
+                        <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                            <li>Positionnement</li>
+                            <li>Sauvetage</li>
+                            <li>Escapes spectaculaires</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Armes & Armures -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Armes & Armures</h2>
+            <p class="section-subtitle">
+                Chaque arme et chaque armure de StarScape a un rôle clair, des forces et des faiblesses. 
+                Il n'existe pas d'équipement "meilleur partout".
+            </p>
+
+            <div class="grid grid-2" style="margin-top: var(--spacing-2xl);">
+                <div class="card">
+                    <h3 class="card-title">Types d'Armes</h3>
+                    <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                        <li style="margin-bottom: var(--spacing-sm);">
+                            <strong>Pistolets</strong> : rapides, mobiles, polyvalents
+                        </li>
+                        <li style="margin-bottom: var(--spacing-sm);">
+                            <strong>Fusils</strong> : fiables, tactiques
+                        </li>
+                        <li style="margin-bottom: var(--spacing-sm);">
+                            <strong>Armes lourdes</strong> : destructrices, risquées
+                        </li>
+                        <li style="margin-bottom: var(--spacing-sm);">
+                            <strong>Armes spéciales</strong> : contrôle, marquage, EMP
+                        </li>
+                    </ul>
+                    <p class="card-content" style="margin-top: var(--spacing-md);">
+                        Les dégâts, les effets et les types élémentaires influencent fortement le combat.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Types d'Armures</h3>
+                    <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                        <li style="margin-bottom: var(--spacing-sm);">
+                            <strong>Légères</strong> : mobilité, discrétion
+                        </li>
+                        <li style="margin-bottom: var(--spacing-sm);">
+                            <strong>Tactiques</strong> : protection équilibrée
+                        </li>
+                        <li style="margin-bottom: var(--spacing-sm);">
+                            <strong>Lourdes</strong> : survie maximale au prix de l'agilité
+                        </li>
+                    </ul>
+                    <p class="card-content" style="margin-top: var(--spacing-md);">
+                        Certaines armures possèdent des boucliers énergétiques, efficaces mais 
+                        vulnérables à certains dégâts.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-content">© 2024 StarScape - Jeu de Rôle de Science-Fiction</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

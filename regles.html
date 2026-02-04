@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Règles - StarScape</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">StarScape</a>
+            <button class="nav-toggle">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="univers.html" class="nav-link">L'Univers</a></li>
+                <li><a href="personnages.html" class="nav-link">Personnages</a></li>
+                <li><a href="regles.html" class="nav-link active">Les Règles</a></li>
+                <li><a href="vaisseau.html" class="nav-link">Le Vaisseau</a></li>
+                <li><a href="factions.html" class="nav-link">Factions</a></li>
+                <li><a href="scenarios.html" class="nav-link">Scénarios</a></li>
+                <li><a href="bestiaire.html" class="nav-link">Bestiaire</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh;">
+        <div class="hero-content">
+            <h1 class="hero-title">Comment jouer à StarScape</h1>
+            <p class="hero-subtitle">
+                StarScape utilise un système simple et fluide basé sur des dés à 8 faces (d8).
+            </p>
+        </div>
+    </section>
+
+    <!-- Section Les Tests -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Les Tests</h2>
+            <div class="grid grid-2" style="margin-top: var(--spacing-2xl);">
+                <div class="card">
+                    <h3 class="card-title">🎲 Mécanique de base</h3>
+                    <p class="card-content">
+                        Quand un personnage tente une action risquée :
+                    </p>
+                    <div style="background-color: var(--color-bg-secondary); padding: var(--spacing-md); border-radius: var(--border-radius-md); margin-top: var(--spacing-md);">
+                        <p style="text-align: center; font-size: var(--font-size-lg); font-weight: 600; color: var(--color-accent);">
+                            Attribut + Compétence = nombre de d8 lancés
+                        </p>
+                    </div>
+                    <p class="card-content" style="margin-top: var(--spacing-md);">
+                        Chaque <strong>6, 7 ou 8</strong> compte comme <strong>1 succès</strong>.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">📊 Difficulté des actions</h3>
+                    <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                        <li style="margin-bottom: var(--spacing-sm);">
+                            <strong>1 succès</strong> : action simple
+                        </li>
+                        <li style="margin-bottom: var(--spacing-sm);">
+                            <strong>2 succès</strong> : action risquée
+                        </li>
+                        <li style="margin-bottom: var(--spacing-sm);">
+                            <strong>3 succès</strong> : action difficile
+                        </li>
+                        <li style="margin-bottom: var(--spacing-sm);">
+                            <strong>4 succès</strong> : action extrême
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="max-width: 800px; margin: var(--spacing-xl) auto 0;">
+                <h3 class="card-title">✨ Succès excédentaires</h3>
+                <p class="card-content">
+                    Les succès en trop permettent :
+                </p>
+                <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                    <li>D'infliger plus de dégâts</li>
+                    <li>D'activer des effets spéciaux</li>
+                    <li>D'obtenir un avantage narratif</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Le Combat -->
+    <section class="section" style="background-color: var(--color-bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Le Combat</h2>
+            <p class="section-subtitle">
+                Les combats se déroulent sur une grille tactique.
+            </p>
+
+            <div class="grid grid-3" style="margin-top: var(--spacing-2xl);">
+                <div class="card">
+                    <div class="card-image">
+                        <span>Image : Grille de combat</span>
+                    </div>
+                    <h3 class="card-title">Zones & Déplacements</h3>
+                    <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                        <li style="margin-bottom: var(--spacing-sm);">
+                            <strong>Déplacement standard</strong> : 3 à 5 cases
+                        </li>
+                        <li style="margin-bottom: var(--spacing-sm);">
+                            <strong>Couvert léger</strong> : réduit l'efficacité ennemie
+                        </li>
+                        <li style="margin-bottom: var(--spacing-sm);">
+                            <strong>Couvert lourd</strong> : protection renforcée
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Actions en Combat</h3>
+                    <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                        <li style="margin-bottom: var(--spacing-sm);">Attaquer</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Se déplacer</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Se mettre à couvert</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Utiliser un gadget</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Aider un allié</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Points de Vie & Armure</h3>
+                    <p class="card-content">
+                        Les dégâts réduisent d'abord :
+                    </p>
+                    <ol style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                        <li style="margin-bottom: var(--spacing-sm);">Les boucliers</li>
+                        <li style="margin-bottom: var(--spacing-sm);">L'armure</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Les points de vie</li>
+                    </ol>
+                    <p class="card-content" style="margin-top: var(--spacing-md);">
+                        Certaines armes contournent ou dégradent ces protections.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Types de Dégâts -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Types de Dégâts</h2>
+            <div class="grid grid-5" style="margin-top: var(--spacing-2xl);">
+                <div class="card">
+                    <h3 class="card-title" style="font-size: var(--font-size-xl);">🔥 Thermique</h3>
+                    <p class="card-content" style="font-size: var(--font-size-sm);">
+                        Dégâts de feu et de chaleur extrême
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title" style="font-size: var(--font-size-xl);">⚡ Électrique</h3>
+                    <p class="card-content" style="font-size: var(--font-size-sm);">
+                        Dégâts d'énergie électrique
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title" style="font-size: var(--font-size-xl);">☣️ Corrosif</h3>
+                    <p class="card-content" style="font-size: var(--font-size-sm);">
+                        Dégâts acides et chimiques
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title" style="font-size: var(--font-size-xl);">💥 Cinétique</h3>
+                    <p class="card-content" style="font-size: var(--font-size-sm);">
+                        Dégâts physiques et d'impact
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title" style="font-size: var(--font-size-xl);">📡 EMP</h3>
+                    <p class="card-content" style="font-size: var(--font-size-sm);">
+                        Impulsion électromagnétique
+                    </p>
+                </div>
+            </div>
+
+            <div class="card" style="max-width: 800px; margin: var(--spacing-xl) auto 0;">
+                <p class="card-content" style="text-align: center; font-size: var(--font-size-lg);">
+                    Chaque type est plus ou moins efficace selon la cible.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-content">© 2024 StarScape - Jeu de Rôle de Science-Fiction</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

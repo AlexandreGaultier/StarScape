@@ -1,0 +1,71 @@
+:root {
+  /* Couleurs principales */
+  --color-primary: #0F1B2D;
+  --color-primary-light: #1a2d47;
+  --color-primary-dark: #0a121f;
+  
+  /* Couleurs secondaires */
+  --color-accent: #4a90e2;
+  --color-accent-light: #6ba3e8;
+  --color-accent-dark: #2d6bb8;
+  
+  /* Couleurs de texte */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b8c5d6;
+  --color-text-muted: #7a8a9e;
+  
+  /* Couleurs de fond */
+  --color-bg-primary: #0F1B2D;
+  --color-bg-secondary: #1a2d47;
+  --color-bg-card: #1e3249;
+  --color-bg-card-hover: #253a54;
+  
+  /* Couleurs de bordure */
+  --color-border: #2d4159;
+  --color-border-light: #3d5169;
+  
+  /* Polices */
+  --font-title: 'Texturina', serif;
+  --font-body: 'Montserrat Alternates', sans-serif;
+  
+  /* Tailles de police */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+  --font-size-4xl: 2.5rem;
+  --font-size-5xl: 3rem;
+  
+  /* Espacements */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  
+  /* Bordures */
+  --border-radius-sm: 0.25rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 0.75rem;
+  --border-radius-xl: 1rem;
+  
+  /* Ombres */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 12px 24px rgba(0, 0, 0, 0.6);
+  
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Largeurs */
+  --container-max-width: 1200px;
+  --card-max-width: 400px;
+}

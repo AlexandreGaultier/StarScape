@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factions - StarScape</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">StarScape</a>
+            <button class="nav-toggle">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="univers.html" class="nav-link">L'Univers</a></li>
+                <li><a href="personnages.html" class="nav-link">Personnages</a></li>
+                <li><a href="regles.html" class="nav-link">Les Règles</a></li>
+                <li><a href="vaisseau.html" class="nav-link">Le Vaisseau</a></li>
+                <li><a href="factions.html" class="nav-link active">Factions</a></li>
+                <li><a href="scenarios.html" class="nav-link">Scénarios</a></li>
+                <li><a href="bestiaire.html" class="nav-link">Bestiaire</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh;">
+        <div class="hero-content">
+            <h1 class="hero-title">🛰 Factions</h1>
+            <p class="hero-subtitle">
+                La Frontière est le théâtre de nombreux groupes aux motivations variées. 
+                Chaque faction a ses propres objectifs, méthodes et idéologies.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section Corporations -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Corporations</h2>
+            <p class="section-subtitle">
+                Les grandes corporations cherchent à exploiter les ressources de la Frontière 
+                pour maximiser leurs profits.
+            </p>
+            <div class="grid grid-2" style="margin-top: var(--spacing-2xl);">
+                <div class="card">
+                    <div class="card-image">
+                        <span>Image : Siège corporatif</span>
+                    </div>
+                    <h3 class="card-title">Objectifs</h3>
+                    <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                        <li style="margin-bottom: var(--spacing-sm);">Exploitation des ressources</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Expansion territoriale</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Élimination de la concurrence</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Contrôle des routes commerciales</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Méthodes</h3>
+                    <p class="card-content">
+                        Les corporations utilisent leur puissance financière et technologique 
+                        pour imposer leur volonté. Elles embauchent souvent des Outriders 
+                        pour des missions risquées qu'elles préfèrent ne pas accomplir elles-mêmes.
+                    </p>
+                    <p class="card-content" style="margin-top: var(--spacing-md);">
+                        <strong>Relations avec les Outriders :</strong> Contractuelles, basées sur le profit. 
+                        Les corporations paient bien, mais leurs missions peuvent être moralement ambiguës.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Scientifiques -->
+    <section class="section" style="background-color: var(--color-bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Scientifiques</h2>
+            <p class="section-subtitle">
+                Les organisations scientifiques sont motivées par la découverte et la compréhension 
+                des mystères de la Frontière.
+            </p>
+            <div class="grid grid-2" style="margin-top: var(--spacing-2xl);">
+                <div class="card">
+                    <div class="card-image">
+                        <span>Image : Laboratoire scientifique</span>
+                    </div>
+                    <h3 class="card-title">Objectifs</h3>
+                    <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                        <li style="margin-bottom: var(--spacing-sm);">Découverte de nouvelles formes de vie</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Analyse des artefacts anciens</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Compréhension des anomalies spatiales</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Avancement de la connaissance</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Méthodes</h3>
+                    <p class="card-content">
+                        Les scientifiques privilégient l'observation et l'analyse. 
+                        Ils embauchent des Outriders pour collecter des échantillons, 
+                        explorer des sites dangereux et protéger leurs expéditions.
+                    </p>
+                    <p class="card-content" style="margin-top: var(--spacing-md);">
+                        <strong>Relations avec les Outriders :</strong> Collaboratives. 
+                        Les scientifiques apprécient les équipages qui respectent les protocoles 
+                        et préservent les échantillons.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Groupes Indépendants -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Groupes Indépendants</h2>
+            <p class="section-subtitle">
+                Des collectifs de colons, de réfugiés et de rebelles qui cherchent 
+                à construire une nouvelle vie dans la Frontière.
+            </p>
+            <div class="grid grid-2" style="margin-top: var(--spacing-2xl);">
+                <div class="card">
+                    <div class="card-image">
+                        <span>Image : Colonie indépendante</span>
+                    </div>
+                    <h3 class="card-title">Objectifs</h3>
+                    <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                        <li style="margin-bottom: var(--spacing-sm);">Établir des colonies autonomes</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Échapper à l'oppression</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Créer une société libre</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Survivre et prospérer</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Méthodes</h3>
+                    <p class="card-content">
+                        Les groupes indépendants sont souvent désorganisés mais déterminés. 
+                        Ils font appel aux Outriders pour des missions de transport, de protection 
+                        ou de sabotage contre leurs ennemis.
+                    </p>
+                    <p class="card-content" style="margin-top: var(--spacing-md);">
+                        <strong>Relations avec les Outriders :</strong> Fraternelles. 
+                        Beaucoup d'Outriders partagent les valeurs d'indépendance et de liberté 
+                        de ces groupes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Sectes Aliens -->
+    <section class="section" style="background-color: var(--color-bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Sectes Aliens</h2>
+            <p class="section-subtitle">
+                Des groupes mystérieux qui vénèrent ou cherchent à communiquer avec 
+                des entités extraterrestres.
+            </p>
+            <div class="grid grid-2" style="margin-top: var(--spacing-2xl);">
+                <div class="card">
+                    <div class="card-image">
+                        <span>Image : Rituel alien</span>
+                    </div>
+                    <h3 class="card-title">Objectifs</h3>
+                    <ul style="color: var(--color-text-secondary); padding-left: var(--spacing-lg);">
+                        <li style="margin-bottom: var(--spacing-sm);">Établir un contact avec les aliens</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Comprendre les technologies anciennes</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Accéder à des connaissances interdites</li>
+                        <li style="margin-bottom: var(--spacing-sm);">Transcender l'humanité</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Méthodes</h3>
+                    <p class="card-content">
+                        Les sectes aliens opèrent dans l'ombre. Leurs méthodes sont souvent 
+                        mystérieuses et parfois dangereuses. Elles embauchent des Outriders 
+                        pour récupérer des artefacts spécifiques ou explorer des sites sacrés.
+                    </p>
+                    <p class="card-content" style="margin-top: var(--spacing-md);">
+                        <strong>Relations avec les Outriders :</strong> Ambiguës. 
+                        Les sectes paient bien, mais leurs missions peuvent avoir des conséquences 
+                        imprévisibles. La prudence est de mise.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Choix des Outriders -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Vos Choix Comptent</h2>
+            <div class="card" style="max-width: 900px; margin: 0 auto;">
+                <p class="card-content" style="text-align: center; font-size: var(--font-size-lg);">
+                    En tant qu'Outrider, vous n'êtes lié à aucune faction. Vos choix déterminent 
+                    avec qui vous travaillez, quelles missions vous acceptez, et comment vous 
+                    naviguez dans les conflits entre factions.
+                </p>
+                <p class="card-content" style="text-align: center; font-size: var(--font-size-lg); margin-top: var(--spacing-md);">
+                    Chaque décision façonne votre réputation et ouvre ou ferme des opportunités futures. 
+                    Dans StarScape, la liberté a un prix, mais aussi des récompenses.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-content">© 2024 StarScape - Jeu de Rôle de Science-Fiction</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
